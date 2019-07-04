@@ -1,0 +1,598 @@
+body {
+	font-family: Arial, sans-serif;
+	padding: 0;
+	margin:0;
+}
+
+.clearfix:after {
+	content: '';
+	display: table;
+	width: 100%;
+	clear: both;
+}
+header{
+	height: 100vh;
+	background-color:#f2f8ff ;
+
+	
+}
+
+.container {
+	width: 1085px;
+	margin: 0 auto ;
+}
+
+.logo {
+	width: 50px;
+margin-top: 41px;
+float: left;
+
+}
+
+nav{
+	float: right;
+}
+.menu{
+padding: 0;
+margin: 0;
+display: block;
+margin-top: 41px;
+}
+.menu li {
+	float: left;
+    display: block;
+    margin-right: 41px;
+}
+.menu a {
+	color: #616366;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+.menu a:hover{
+	background: linear-gradient(45deg, #0B2349 33%, #0D61BC 66%, #8AA9D6); 
+	-webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+}
+.titles_first{
+	font-size: 40px;
+	color: #4a5259;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 180px;
+	background: linear-gradient(45deg, #0B2349 33%, #0D61BC 66%, #8AA9D6); 
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+}
+
+h1{
+	font-size: 75px;
+	color: #4a5259;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 15px;
+	background: linear-gradient(45deg, #0B2349 33%, #0D61BC 66%, #8AA9D6); 
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+}
+
+		
+	
+.button{
+	background: linear-gradient(45deg, #0B2349 33%, #0D61BC 66%, #8AA9D6); 
+	border-radius: 30px;
+	display: block;
+	margin: 0 auto;
+	margin-top: 50px;
+	width: 200px;
+	padding:20px;
+	color: #fff;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 50px;
+    text-transform: uppercase;
+	}
+.button:hover{
+	color: red;
+}
+	.title {
+       padding-top: 20px;
+	}
+
+	
+	.title p {
+margin-top: 20px;
+		color: #4a5259;
+        text-align: center;
+        font-size: 48px;
+     margin-bottom: 20px;
+
+	}
+.visa1{
+	width: 598px;
+	border-radius: 20px;
+}
+	.services{
+
+	}
+.services_item  {
+	    width: 450px;
+		float: left;
+		
+	}
+	
+.services_item p {
+	color: #000;
+	font-size: 19px;
+}
+.services_item:last-child{
+	float: right;
+}
+
+ .button2{
+ 	background:linear-gradient(45deg, #7acdd1, #B0E0E6);
+	border-radius: 20px;
+	display: block;
+
+	width: 90px;
+	padding:10px;
+	color: #4a5259;
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 5px;
+     text-transform: uppercase;
+}
+.button2:hover{
+	color: #fff;
+	background: linear-gradient(45deg, #0B2349 33%, #0D61BC 66%, #8AA9D6);
+}
+#services {
+
+}
+#onas {
+	
+}
+
+.ikonka {
+}
+.ikonka2{
+	
+	display: block;
+	margin-left: 0;
+	margin-right: 0;
+	width: 55px;
+}
+title h2 {
+
+	    
+	    color: #62edf8;
+        text-align: center;
+        font-size: 48px;
+        
+	}
+
+.split {
+float: left;
+  width: 49.9%;
+  height: 190px;
+}
+
+.splittt {
+float: left;
+  width: 50%;
+  
+}
+.left {
+  left: 0;
+  background-color: #F0F8FF;
+}
+
+/* Control the right side */
+.right {
+  right: 0;
+  background-color: #F0FFF0;
+}
+.righttt {
+  right: 0; 
+
+}
+.lefttt {
+  left: 0;
+  
+}
+.centered {
+  margin-top: 16px;
+  font-size: 18px;
+  text-align: center;
+ }
+ .centereddd {
+ 	 margin-top: 50px;
+  font-size: 18px;
+  text-align: center;
+  right: 0;
+ }
+ h3{
+ 	color: black;
+ }
+ h3:hover{
+ 	background: linear-gradient(45deg, #0B2349 33%, #0D61BC 66%, #8AA9D6);
+ 	-webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+ }
+ h4{
+ 
+ 	color:#4a5259; 
+ }
+h6{
+	margin-top: 0;
+	color: #4a5259;
+	font-size: 18px;
+}
+.centered img {
+  width: 56px;
+
+}
+.centereddd img {
+width: 35px;
+
+}
+.split:last-child{
+float: right;
+}
+
+
+.left2 {
+
+  left: 0;
+  background-color: #F0FFF0;
+}
+/* Control the right side */
+.right2 {
+
+  right: 0;
+  
+  background-color: #F0F8FF;
+}
+.left3 {
+
+  left: 0;
+  background-color: #F0F8FF;
+}
+  
+.right3 {
+
+  right: 0;
+  background-color: #F0FFF0;
+}
+ 
+.left4 {
+
+  left: 0;
+   background-color: #F0FFF0;
+}
+  
+.right4 {
+
+  right: 0;
+  background-color: #F0F8FF;
+ }
+#uslugikit{
+	margin-bottom: 350px;
+	padding-bottom: 350px;
+}
+#klient{
+
+
+	
+
+
+	
+}
+ h4{margin-top: 0px;
+    
+	color: #777777;
+	text-align: center;
+	font-size: 18px;
+	
+}
+.button3{
+	background:linear-gradient(45deg,  #D3D3D3, #D3D3D3);
+	border-radius: 30px;
+	display: block;
+	margin: 0 auto;
+	width: 150px;
+	padding:15px;
+	color: #fff;
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    text-transform: uppercase;
+	}
+#otzyv{
+	background: #ecede8;
+height: 695px;
+
+}
+.titletwo p {
+	padding-top: 10px;
+	margin-bottom: 0px;
+		color: #4a5259;
+        text-align: center;
+        font-size: 48px;
+        
+
+	}
+.poryadok{
+	background-color: #1b456d;
+	height: 500px; 
+	padding: 0;
+	 margin: 0;
+	}
+.poryadok div { 
+	width: 50%;
+ height: 50%; 
+ float: left;
+}
+#div1 { 
+	background: #000928;
+
+	text-decoration: none;
+	text-align: center;
+	margin: 0 auto;
+	color: #fff;
+	font-size: 26px;
+
+	 }
+#div2 { background:#0b0c3c ;
+	text-decoration: none;
+	text-align: center;
+	margin: 0 auto;
+	color: #fff;
+	font-size: 26px;
+
+}
+#div3 { background:#ebf02c;
+	text-decoration: none;
+	text-align: center;
+	margin: 0 auto;
+	color: #000928;
+	font-size: 26px;
+
+ }
+#div4 { background:#f7fd18 ; 
+	text-decoration: none;
+	text-align: center;
+	margin: 0 auto;
+	color: #000928;
+	font-size: 26px;
+
+}
+#div5{
+	 background:  #000928; 
+	text-decoration: none;
+	text-align: center;
+	margin: 0 auto;
+	color: #fff;
+	font-size: 26px;
+}
+#div6{
+	background:#0b0c3c; 
+	text-decoration: none;
+	text-align: center;
+	margin: 0 auto;
+	color: #fff;
+	font-size: 26px;
+}
+#div1:hover{
+
+background-image: url(./images/35.png);
+}
+#div2:hover{
+
+	background-image: url(./images/204.png);
+color: #fff;
+}
+#div3:hover{
+background-image: url(./images/204.png);
+color: #fff;
+}
+#div4:hover{
+	color: #fff;
+background-image: url(./images/35.png);
+}
+#div5:hover{
+background-image: url(./images/35.png);
+}
+#div6:hover{
+background-image: url(./images/204.png);
+color: #fff;
+}
+.data {
+	position: relative;
+}
+
+h5{
+	margin-top: 65px;
+}
+#rabota {
+
+	padding-bottom: 120px;
+	margin-bottom: 120px;
+	
+}
+.mesto{
+	margin-top: 100px;
+}
+#kontakt {
+	padding-bottom: 200px;
+	margin-bottom: 220px;
+}
+#oblako{
+	background-color: #0c213c;
+	margin-top: 400px;
+	height: 100px;
+}
+.oblako{
+	color: #fff;
+	text-align: center;
+	font-size: 26px;
+	padding-top: 25px;
+	font-weight: bold;
+
+}
+.konez{
+	
+	font-family: arial;
+	text-align: center;
+	text-decoration: none;
+	font-size: 20px;
+	color: #2c2c2c;
+	background-color: #fff;
+		
+}
+.visa{
+	border: 3px solid #edecef;
+	border-radius: 16px;
+}
+.visa:hover{
+	box-shadow: 0 0 8px #0d223d ;
+}
+
+#slider { /*положение слайдера*/
+    position: relative;
+  text-align: center;
+    top: 10px;
+}
+
+#slider{ /*центровка слайдера*/
+  margin: 0 auto;
+}
+
+#slides article{ /*все изображения справа друг от доруга*/
+  width: 20%;
+  float: left;
+}
+
+#slides .image{ /*устанавливает общий размер блока с изображениями*/
+  width: 500%;
+  line-height: 0;
+}
+
+#overflow{ /*сркывает все, что находится за пределами этого блока*/
+  width: 100%;
+  overflow: hidden;
+}
+
+article img{ /*размер изображений слайдера*/
+  width: 50%;
+}
+
+#desktop:checked ~ #slider{ /*размер всего слайдера*/
+  max-width: 960px; /*максимальнная длинна*/
+}
+
+/*настройка переключения и положения для левой стрелки*/
+/*если свич1-5 активны, то идет обращение к лейблу из блока с id контролс*/
+#switch1:checked ~ #controls label:nth-child(5), 
+#switch2:checked ~ #controls label:nth-child(1),
+#switch3:checked ~ #controls label:nth-child(2),
+#switch4:checked ~ #controls label:nth-child(3),
+#switch5:checked ~ #controls label:nth-child(4){
+  background: url('prev.png') no-repeat; /*заливка фона картинкой без повторений*/
+  float: left;
+  margin:0 0 0 130px ; /*сдвиг влево*/
+  display: block;
+  height: 68px;
+  width: 68px;
+}
+
+/*настройка переключения и положения для правой стрелки*/
+#switch1:checked ~ #controls label:nth-child(2), 
+#switch2:checked ~ #controls label:nth-child(3),
+#switch3:checked ~ #controls label:nth-child(4),
+#switch4:checked ~ #controls label:nth-child(5),
+#switch5:checked ~ #controls label:nth-child(1){
+  background: url('next.png') no-repeat; /*заливка фона картинкой без повторений*/
+  float: right;
+  margin:  0 130px 0 0;  /*сдвиг вправо*/
+  display: block;
+  height: 68px;
+  width: 68px;
+}
+
+label, a{ /*при наведении на стрелки или переключатели - курсор изменится*/
+  cursor: pointer;
+}
+
+.all input{ /*скрывает стандартные инпуты (чекбоксы) на странице*/
+  display: none;
+}
+
+/*позиция изображения при активации переключателя*/
+#switch1:checked ~ #slides .image{
+  margin-left: 0;
+}
+
+#switch2:checked ~ #slides .image{
+  margin-left: -100%;
+}
+
+#switch3:checked ~ #slides .image{
+  margin-left: -200%;
+}
+
+#switch4:checked ~ #slides .image{
+  margin-left: -300%;
+}
+
+#switch5:checked ~ #slides .image{
+  margin-left: -400%;
+}
+
+#controls{ /*положение блока всех управляющих элементов*/
+  margin: -35% 0 0 0;
+  width: 100%;
+  height: 128px;
+}
+
+#active label{ /*стиль отдельного переключателя*/
+  border-radius: 10px; /*скругление углов*/
+  display: inline-block; /*расположение в строку*/
+  width: 15px;
+  height: 15px;
+  background: #bbb;
+}
+
+#active{ /*расположение блока с переключателями*/
+  margin: 23% 0 0;
+  text-align: center;
+}
+
+#active label:hover{ /*поведение чекбокса при наведении*/
+  background: #21507e;
+  border-color:#21507e !important; /*выполнение в любом случае*/
+}
+
+/*цвет активного лейбла при активации чекбокса*/
+#switch1:checked ~ #active label:nth-child(1),
+#switch2:checked ~ #active label:nth-child(2),
+#switch3:checked ~ #active label:nth-child(3),
+#switch4:checked ~ #active label:nth-child(4),
+#switch5:checked ~ #active label:nth-child(5){
+  background:#fff;
+  border-color: #fff!important;
+}
+
+#slides .image{ /*анимация пролистывания изображений*/
+  transition: all 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
+}
+
+#controls label:hover{ /*прозрачность стрелок при наведении*/
+  opacity: 0.6;
+}
+
+#controls label{ /*прозрачность стрелок при отводе курсора*/
+  transition: opacity 0.2s ease-out;
+}
